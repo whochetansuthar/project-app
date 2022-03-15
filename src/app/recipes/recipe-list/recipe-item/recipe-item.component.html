@@ -1,0 +1,11 @@
+<a href="#" class="list-group-item list-group-item-action" (click)="showRecipe()">
+    <div class="row w-100">
+        <div class="col-sm-8">
+            <h5 class="mb-1">{{recipe.name}}</h5>
+    <p class="mb-1">{{recipe.description}}</p>
+        </div>
+        <div class="col-sm-4">
+            <img [src]="recipe.imagePath" alt="" class="img-fluid" style="max-height: 150px;">
+        </div>
+    </div>
+  </a>
